@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>깔끔한 예제</title>
+
+  <!-- ✅ 스타일(CSS) 구역 -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #007acc;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ✅ 본문(HTML) 구역 -->
+  <div class="container">
+    <h1>안녕하세요!</h1>
+    <p>이건 HTML, CSS, JS가 한 파일에 있으면서도 보기 쉽게 정리된 예제입니다.</p>
+    <button onclick="sayHello()">눌러보세요</button>
+  </div>
+
+  <!-- ✅ 스크립트(JavaScript) 구역 -->
+  <script>
+    function sayHello() {
+      alert("버튼을 누르셨습니다! 👋");
+    }
+  </script>
+</body>
+</html>
